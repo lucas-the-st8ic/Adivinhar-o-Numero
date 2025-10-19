@@ -4,7 +4,7 @@ void main() {
 
     Scanner leitura = new Scanner(System.in);
 
-    int numeroSecreto = 0;
+    int numeroSecreto;
     int chuteDoNumero = 0;
     int tentativas = 1;
     numeroSecreto = new Random().nextInt(100) + 1;
